@@ -1,0 +1,660 @@
+#wrap {
+	min-width: 1100px;
+	margin: 0 auto;
+}
+
+header {
+	min-width: 1100px;
+	margin: 0 auto;
+	> .top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 1100px;
+		margin: 10px auto;
+		> .top-tit {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 500px;
+			> .logo {
+				> a {
+					display: block;
+					width: 150px;
+					height: 30px;
+					text-indent: -9999px;
+					background-image: url(./../images/01header-top/logo.svg);
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+			} //end of .logo
+			> .search {
+				width: 330px;
+				height: 50px;
+				line-height: 50px;
+				background-color: #f5f6f7;
+				> label {
+					display: inline-block;
+					width: 50px;
+					height: 50px;
+					text-indent: -9999px;
+					background-image: url(./../images/01header-top/search-icon.svg);
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+				> input {
+					width: 250px;
+					height: 40px;
+					font-size: 1.2em;
+					background-color: transparent;
+					border: none;
+					outline: none;
+				}
+			} //end of .search
+		} //end of .top-tit
+		> .sign {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 300px;
+			> a {
+				display: block;
+				font-size: 1.2em;
+
+				&:nth-of-type(3) {
+					width: 120px;
+					height: 35px;
+					color: #3e9fef;
+					line-height: 35px;
+					text-align: center;
+					border: 1px solid #3e9fef;
+				}
+			}
+		} //end of .sign
+	} //end of .top
+
+	> nav {
+		width: 1100px;
+		margin: 20px auto;
+		padding-bottom: 20px;
+		> .gnb {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			> li {
+				position: relative;
+				> a {
+					display: block;
+					font-size: 1.3em;
+				}
+
+				&:nth-of-type(1) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-01.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+				&:nth-of-type(2) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-02.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+				&:nth-of-type(3) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-03.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+				&:nth-of-type(4) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-04.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+				&:nth-of-type(5) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-05.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+				&:nth-of-type(6) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-06.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+				&:nth-of-type(7) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-07.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+				&:nth-of-type(8) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-08.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+				&:nth-of-type(9) > a {
+					&:before {
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						height: 20px;
+						background-image: url(./../images/02header-nav/gnb-icon-09.png);
+						background-size: cover;
+						content: '';
+					}
+				}
+			}
+		} //end of .gnb
+	} //end of nav
+	&:after {
+		display: block;
+		min-width: 1100px;
+		border-bottom: 1px solid #ddd;
+		content: '';
+	}
+} //end of header
+
+section {
+	width: 1100px;
+	margin: 50px auto;
+	> .titTrip {
+		> h2 {
+			font-size: 2.5em;
+		}
+		> .cities {
+			margin: 30px 0;
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			> li {
+				position: relative;
+				overflow: hidden;
+				width: 250px;
+				height: 330px;
+				background-position: center center;
+				border-radius: 8px;
+				box-shadow: -20px 100px 100px 50px rgba(0, 0, 0, 0.5) inset;
+
+				> a {
+					display: block;
+					height: 330px;
+					> h3 {
+						position: absolute;
+						left: 30px;
+						top: 35px;
+						color: #fff;
+						font-size: 1.8em;
+					}
+					> p {
+						position: absolute;
+						left: 30px;
+						top: 80px;
+						color: #fff;
+						font-size: 1.5em;
+					}
+					> .img {
+						display: block;
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						background-position: center center;
+						z-index: -1;
+					}
+				}
+
+				> .around {
+					display: block;
+					position: absolute;
+					left: 30px;
+					bottom: 30px;
+					width: 80px;
+					height: 40px;
+					font-size: 1.1em;
+					line-height: 40px;
+					text-align: center;
+					background-color: #fff;
+					border-radius: 5px;
+				}
+
+				&:nth-of-type(1) > a > .img {
+					background-image: url(./../images/03sect-titTrip/titTrip-jeju.jpg);
+				}
+				&:nth-of-type(1):hover > a > .img {
+					transform: scale(1.2);
+					transition: all 2s;
+				}
+				&:nth-of-type(2) > a > .img {
+					background-image: url(./../images/03sect-titTrip/titTrip-lasvegas.jpg);
+				}
+				&:nth-of-type(2):hover > a > .img {
+					transform: scale(1.2);
+					transition: all 2s;
+				}
+				&:nth-of-type(3) > a > .img {
+					background-image: url(./../images/03sect-titTrip/titTrip-paries.jpg);
+				}
+				&:nth-of-type(3):hover > a > .img {
+					transform: scale(1.2);
+					transition: all 2s;
+				}
+				&:nth-of-type(4) > a > .img {
+					background-image: url(./../images/03sect-titTrip/titTrip-osaka.jpg);
+				}
+				&:nth-of-type(4):hover > a > .img {
+					transform: scale(1.2);
+					transition: all 2s;
+				}
+			} //end of li
+		} //end of .citis
+	} //end of titTrip
+	> .slides {
+		position: relative;
+		width: 1100px;
+		margin: 50px 0 80px;
+		> .swiper {
+			> .swiper-wrapper {
+				> .swiper-slide {
+					> img {
+						display: block;
+						width: 100%;
+					}
+				} //end of .swiper-slide
+			} //end of .swiper-wrapper
+		} //end of .swiper
+		> .swiper-pagination {
+			bottom: -30px;
+		} //end of .swiper-pagination
+
+		> .swiper-button-prev {
+			position: absolute;
+			top: 50%;
+			left: 10px;
+			color: #fff;
+		}
+
+		> .swiper-button-next {
+			position: absolute;
+			top: 50%;
+			right: 10px;
+			color: #fff;
+		}
+	} //end of slides
+	> .subTrip {
+		margin: 30px 0;
+		> h3 {
+			margin: 20px 0;
+			font-size: 2em;
+		}
+		> .tours {
+			> ul {
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+				> li {
+					width: 250px;
+					border: 1px solid #ddd;
+
+					&:hover {
+						box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.1);
+					}
+
+					> a {
+						display: block;
+						position: relative;
+						height: 310px;
+						> img {
+							display: block;
+							width: 100%;
+						}
+						> p.subtit {
+							position: absolute;
+							top: 195px;
+							left: 10px;
+							color: #848c94;
+						} //end of p.subtit
+						> h4 {
+							position: absolute;
+							top: 210px;
+							left: 10px;
+							font-size: 1.2em;
+						}
+						> .star {
+							position: absolute;
+							top: 250px;
+							left: 10px;
+							color: #939aa1;
+							font-size: 0.8em;
+							> .stars {
+								display: inline-block;
+								color: #51abf3;
+							}
+						}
+						> p {
+							position: absolute;
+							top: 280px;
+							left: 10px;
+							width: 250px;
+
+							color: #939aa1;
+							> .cash-d {
+								display: inline-block;
+								text-decoration: line-through;
+							}
+							> .cash {
+								display: inline-block;
+								color: #676e76;
+								font-weight: 600;
+							}
+							> .decide {
+								display: inline-block;
+								position: absolute;
+								right: 20px;
+								&:before {
+									display: block;
+									position: absolute;
+									top: 0;
+									left: -10px;
+									width: 10px;
+									height: 15px;
+									background-image: url(./../images/05sect-subTrip/decide.svg);
+									content: '';
+								}
+							}
+						}
+					} //end of a
+				} //end of li
+			} //end of ul
+		} //end of .tours
+	} //end of .subTrip
+	> .info {
+		margin: 50px auto;
+		> h3 {
+			margin: 20px 0;
+			font-size: 2em;
+		}
+		> ol {
+			display: flex;
+			justify-content: space-evenly;
+			width: 100%;
+			height: 210px;
+			background-color: #f8f9fa;
+			border: 1px solid #dee2e6;
+			> li {
+				position: relative;
+				width: 300px;
+				> h4 {
+					position: relative;
+					> a {
+						display: block;
+						position: absolute;
+						top: 50px;
+						left: 35px;
+						width: 100%;
+						color: #2b96ed;
+						font-size: 1.2em;
+						font-weight: 400;
+					}
+				}
+				> p {
+					position: absolute;
+					top: 90px;
+					left: 0;
+					color: #6f767d;
+					font-size: 1.2em;
+					line-height: 1.8;
+				}
+
+				&:nth-of-type(1) > h4 > a:before {
+					display: inline-block;
+					position: absolute;
+					left: -35px;
+					top: -5px;
+					width: 30px;
+					height: 30px;
+					background-image: url(./../images/06sect-info/01-facebook.svg);
+					background-repeat: no-repeat;
+					content: '';
+				}
+				&:nth-of-type(2) > h4 > a:before {
+					display: inline-block;
+					position: absolute;
+					left: -35px;
+					top: -5px;
+					width: 30px;
+					height: 30px;
+					background-image: url(./../images/06sect-info/02-insta.svg);
+					background-repeat: no-repeat;
+					content: '';
+				}
+				&:nth-of-type(3) > h4 > a:before {
+					display: inline-block;
+					position: absolute;
+					left: -35px;
+					top: -5px;
+					width: 30px;
+					height: 30px;
+					background-image: url(./../images/06sect-info/03-naver.svg);
+					background-repeat: no-repeat;
+					content: '';
+				}
+			} //end of li
+		} //end of ol
+	} //end of .info
+} //end of section
+
+footer {
+	min-width: 1100px;
+	margin: 0 auto;
+	padding: 40px 0;
+	&:before {
+		display: block;
+		min-width: 1100px;
+		border-top: 1px solid #ddd;
+		content: '';
+	}
+
+	> .support {
+		display: flex;
+		justify-content: space-between;
+		width: 1100px;
+		margin: 20px auto;
+		> .support-time {
+			> h4 {
+				margin: 10px 0;
+				color: #666d75;
+				font-size: 1.5em;
+			}
+			> p {
+				margin: 10px 0;
+				color: #666d75;
+				line-height: 1.5;
+			}
+			> button {
+				margin: 10px 0;
+				width: 110px;
+				height: 40px;
+				color: #666d75;
+				font-weight: 800;
+				background-color: #fff;
+				border: 1px solid #ddd;
+				border-radius: 5px;
+			}
+		} //end of .support-time
+		> ol {
+			display: flex;
+			justify-content: space-between;
+			width: 500px;
+			margin: 10px 0;
+
+			> li {
+				margin: 15px 0;
+				> h5 {
+					color: #666d75;
+					font-size: 1.2em;
+				}
+				> ol {
+					> li {
+						margin: 15px 0;
+						> a {
+							display: block;
+							color: #666d75;
+						}
+					}
+				} //end of ol
+			} //end of li
+		} //end of ol
+	} //end of support
+
+	> .policy_sns {
+		display: flex;
+		justify-content: space-between;
+		width: 1100px;
+		margin: 0 auto;
+		> .policy {
+			display: flex;
+			justify-content: space-between;
+			width: 400px;
+			> p {
+				> a {
+					display: block;
+					color: #666d75;
+					font-size: 1.2em;
+					> span {
+						font-weight: 500;
+					}
+				}
+			}
+		} //end of .polcy
+		> .sns {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 350px;
+
+			> a {
+				display: block;
+				text-indent: -9999px;
+				width: 20px;
+				height: 20px;
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+
+				&:nth-of-type(1) {
+					background-image: url(./../images/07footer/ic_facebook.svg);
+				}
+				&:nth-of-type(2) {
+					background-image: url(./../images/07footer/ic_naver.svg);
+				}
+				&:nth-of-type(3) {
+					background-image: url(./../images/07footer/ic_instagram.svg);
+				}
+				&:nth-of-type(4) {
+					background-image: url(./../images/07footer/ic_youtube.svg);
+				}
+				&:nth-of-type(5) {
+					background-image: url(./../images/07footer/ic_appstore.svg);
+				}
+				&:nth-of-type(6) {
+					background-image: url(./../images/07footer/ic_googleplay.svg);
+				}
+			}
+
+			> span {
+				display: block;
+				color: #666d75;
+			}
+			> p {
+				position: relative;
+				width: 70px;
+				height: 30px;
+				padding-left: 35px;
+				line-height: 30px;
+				color: #666d75;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				&:before {
+					display: block;
+					position: absolute;
+					left: 5px;
+					width: 30px;
+					height: 30px;
+					background-image: url(./../images/07footer/gloval-icon.svg);
+					background-position: center center;
+					background-size: cover;
+					content: '';
+				}
+			}
+		} //end of .sns
+	} //end of .policy_sns
+
+	> p {
+		width: 1100px;
+		margin: 15px auto;
+		color: #666d75;
+		line-height: 1.5;
+	}
+} //end of footer

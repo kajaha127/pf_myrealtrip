@@ -1,0 +1,605 @@
+#wrap {
+  min-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  min-width: 1100px;
+  margin: 0 auto;
+}
+header > .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  margin: 10px auto;
+}
+header > .top > .top-tit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+header > .top > .top-tit > .logo > a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  text-indent: -9999px;
+  background-image: url(./../images/01header-top/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header > .top > .top-tit > .search {
+  width: 330px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f5f6f7;
+}
+header > .top > .top-tit > .search > label {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  background-image: url(./../images/01header-top/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header > .top > .top-tit > .search > input {
+  width: 250px;
+  height: 40px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+header > .top > .sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+header > .top > .sign > a {
+  display: block;
+  font-size: 1.2em;
+}
+header > .top > .sign > a:nth-of-type(3) {
+  width: 120px;
+  height: 35px;
+  color: #3e9fef;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #3e9fef;
+}
+header > nav {
+  width: 1100px;
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+header > nav > .gnb {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header > nav > .gnb > li {
+  position: relative;
+}
+header > nav > .gnb > li > a {
+  display: block;
+  font-size: 1.3em;
+}
+header > nav > .gnb > li:nth-of-type(1) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-01.png);
+  background-size: cover;
+  content: "";
+}
+header > nav > .gnb > li:nth-of-type(2) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-02.png);
+  background-size: cover;
+  content: "";
+}
+header > nav > .gnb > li:nth-of-type(3) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-03.png);
+  background-size: cover;
+  content: "";
+}
+header > nav > .gnb > li:nth-of-type(4) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-04.png);
+  background-size: cover;
+  content: "";
+}
+header > nav > .gnb > li:nth-of-type(5) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-05.png);
+  background-size: cover;
+  content: "";
+}
+header > nav > .gnb > li:nth-of-type(6) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-06.png);
+  background-size: cover;
+  content: "";
+}
+header > nav > .gnb > li:nth-of-type(7) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-07.png);
+  background-size: cover;
+  content: "";
+}
+header > nav > .gnb > li:nth-of-type(8) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-08.png);
+  background-size: cover;
+  content: "";
+}
+header > nav > .gnb > li:nth-of-type(9) > a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/02header-nav/gnb-icon-09.png);
+  background-size: cover;
+  content: "";
+}
+header:after {
+  display: block;
+  min-width: 1100px;
+  border-bottom: 1px solid #ddd;
+  content: "";
+}
+
+section {
+  width: 1100px;
+  margin: 50px auto;
+}
+section > .titTrip > h2 {
+  font-size: 2.5em;
+}
+section > .titTrip > .cities {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+section > .titTrip > .cities > li {
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 330px;
+  background-position: center center;
+  border-radius: 8px;
+  box-shadow: -20px 100px 100px 50px rgba(0, 0, 0, 0.5) inset;
+}
+section > .titTrip > .cities > li > a {
+  display: block;
+  height: 330px;
+}
+section > .titTrip > .cities > li > a > h3 {
+  position: absolute;
+  left: 30px;
+  top: 35px;
+  color: #fff;
+  font-size: 1.8em;
+}
+section > .titTrip > .cities > li > a > p {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+  color: #fff;
+  font-size: 1.5em;
+}
+section > .titTrip > .cities > li > a > .img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  z-index: -1;
+}
+section > .titTrip > .cities > li > .around {
+  display: block;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  width: 80px;
+  height: 40px;
+  font-size: 1.1em;
+  line-height: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
+section > .titTrip > .cities > li:nth-of-type(1) > a > .img {
+  background-image: url(./../images/03sect-titTrip/titTrip-jeju.jpg);
+}
+section > .titTrip > .cities > li:nth-of-type(1):hover > a > .img {
+  transform: scale(1.2);
+  transition: all 2s;
+}
+section > .titTrip > .cities > li:nth-of-type(2) > a > .img {
+  background-image: url(./../images/03sect-titTrip/titTrip-lasvegas.jpg);
+}
+section > .titTrip > .cities > li:nth-of-type(2):hover > a > .img {
+  transform: scale(1.2);
+  transition: all 2s;
+}
+section > .titTrip > .cities > li:nth-of-type(3) > a > .img {
+  background-image: url(./../images/03sect-titTrip/titTrip-paries.jpg);
+}
+section > .titTrip > .cities > li:nth-of-type(3):hover > a > .img {
+  transform: scale(1.2);
+  transition: all 2s;
+}
+section > .titTrip > .cities > li:nth-of-type(4) > a > .img {
+  background-image: url(./../images/03sect-titTrip/titTrip-osaka.jpg);
+}
+section > .titTrip > .cities > li:nth-of-type(4):hover > a > .img {
+  transform: scale(1.2);
+  transition: all 2s;
+}
+section > .slides {
+  position: relative;
+  width: 1100px;
+  margin: 50px 0 80px;
+}
+section > .slides > .swiper > .swiper-wrapper > .swiper-slide > img {
+  display: block;
+  width: 100%;
+}
+section > .slides > .swiper-pagination {
+  bottom: -30px;
+}
+section > .slides > .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  color: #fff;
+}
+section > .slides > .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: #fff;
+}
+section > .subTrip {
+  margin: 30px 0;
+}
+section > .subTrip > h3 {
+  margin: 20px 0;
+  font-size: 2em;
+}
+section > .subTrip > .tours > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+section > .subTrip > .tours > ul > li {
+  width: 250px;
+  border: 1px solid #ddd;
+}
+section > .subTrip > .tours > ul > li:hover {
+  box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+section > .subTrip > .tours > ul > li > a {
+  display: block;
+  position: relative;
+  height: 310px;
+}
+section > .subTrip > .tours > ul > li > a > img {
+  display: block;
+  width: 100%;
+}
+section > .subTrip > .tours > ul > li > a > p.subtit {
+  position: absolute;
+  top: 195px;
+  left: 10px;
+  color: #848c94;
+}
+section > .subTrip > .tours > ul > li > a > h4 {
+  position: absolute;
+  top: 210px;
+  left: 10px;
+  font-size: 1.2em;
+}
+section > .subTrip > .tours > ul > li > a > .star {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  color: #939aa1;
+  font-size: 0.8em;
+}
+section > .subTrip > .tours > ul > li > a > .star > .stars {
+  display: inline-block;
+  color: #51abf3;
+}
+section > .subTrip > .tours > ul > li > a > p {
+  position: absolute;
+  top: 280px;
+  left: 10px;
+  width: 250px;
+  color: #939aa1;
+}
+section > .subTrip > .tours > ul > li > a > p > .cash-d {
+  display: inline-block;
+  text-decoration: line-through;
+}
+section > .subTrip > .tours > ul > li > a > p > .cash {
+  display: inline-block;
+  color: #676e76;
+  font-weight: 600;
+}
+section > .subTrip > .tours > ul > li > a > p > .decide {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+section > .subTrip > .tours > ul > li > a > p > .decide:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 10px;
+  height: 15px;
+  background-image: url(./../images/05sect-subTrip/decide.svg);
+  content: "";
+}
+section > .info {
+  margin: 50px auto;
+}
+section > .info > h3 {
+  margin: 20px 0;
+  font-size: 2em;
+}
+section > .info > ol {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 210px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+section > .info > ol > li {
+  position: relative;
+  width: 300px;
+}
+section > .info > ol > li > h4 {
+  position: relative;
+}
+section > .info > ol > li > h4 > a {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  width: 100%;
+  color: #2b96ed;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+section > .info > ol > li > p {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  color: #6f767d;
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+section > .info > ol > li:nth-of-type(1) > h4 > a:before {
+  display: inline-block;
+  position: absolute;
+  left: -35px;
+  top: -5px;
+  width: 30px;
+  height: 30px;
+  background-image: url(./../images/06sect-info/01-facebook.svg);
+  background-repeat: no-repeat;
+  content: "";
+}
+section > .info > ol > li:nth-of-type(2) > h4 > a:before {
+  display: inline-block;
+  position: absolute;
+  left: -35px;
+  top: -5px;
+  width: 30px;
+  height: 30px;
+  background-image: url(./../images/06sect-info/02-insta.svg);
+  background-repeat: no-repeat;
+  content: "";
+}
+section > .info > ol > li:nth-of-type(3) > h4 > a:before {
+  display: inline-block;
+  position: absolute;
+  left: -35px;
+  top: -5px;
+  width: 30px;
+  height: 30px;
+  background-image: url(./../images/06sect-info/03-naver.svg);
+  background-repeat: no-repeat;
+  content: "";
+}
+
+footer {
+  min-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+footer:before {
+  display: block;
+  min-width: 1100px;
+  border-top: 1px solid #ddd;
+  content: "";
+}
+footer > .support {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 20px auto;
+}
+footer > .support > .support-time > h4 {
+  margin: 10px 0;
+  color: #666d75;
+  font-size: 1.5em;
+}
+footer > .support > .support-time > p {
+  margin: 10px 0;
+  color: #666d75;
+  line-height: 1.5;
+}
+footer > .support > .support-time > button {
+  margin: 10px 0;
+  width: 110px;
+  height: 40px;
+  color: #666d75;
+  font-weight: 800;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+footer > .support > ol {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 10px 0;
+}
+footer > .support > ol > li {
+  margin: 15px 0;
+}
+footer > .support > ol > li > h5 {
+  color: #666d75;
+  font-size: 1.2em;
+}
+footer > .support > ol > li > ol > li {
+  margin: 15px 0;
+}
+footer > .support > ol > li > ol > li > a {
+  display: block;
+  color: #666d75;
+}
+footer > .policy_sns {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+footer > .policy_sns > .policy {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+footer > .policy_sns > .policy > p > a {
+  display: block;
+  color: #666d75;
+  font-size: 1.2em;
+}
+footer > .policy_sns > .policy > p > a > span {
+  font-weight: 500;
+}
+footer > .policy_sns > .sns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+footer > .policy_sns > .sns > a {
+  display: block;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+footer > .policy_sns > .sns > a:nth-of-type(1) {
+  background-image: url(./../images/07footer/ic_facebook.svg);
+}
+footer > .policy_sns > .sns > a:nth-of-type(2) {
+  background-image: url(./../images/07footer/ic_naver.svg);
+}
+footer > .policy_sns > .sns > a:nth-of-type(3) {
+  background-image: url(./../images/07footer/ic_instagram.svg);
+}
+footer > .policy_sns > .sns > a:nth-of-type(4) {
+  background-image: url(./../images/07footer/ic_youtube.svg);
+}
+footer > .policy_sns > .sns > a:nth-of-type(5) {
+  background-image: url(./../images/07footer/ic_appstore.svg);
+}
+footer > .policy_sns > .sns > a:nth-of-type(6) {
+  background-image: url(./../images/07footer/ic_googleplay.svg);
+}
+footer > .policy_sns > .sns > span {
+  display: block;
+  color: #666d75;
+}
+footer > .policy_sns > .sns > p {
+  position: relative;
+  width: 70px;
+  height: 30px;
+  padding-left: 35px;
+  line-height: 30px;
+  color: #666d75;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+footer > .policy_sns > .sns > p:before {
+  display: block;
+  position: absolute;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background-image: url(./../images/07footer/gloval-icon.svg);
+  background-position: center center;
+  background-size: cover;
+  content: "";
+}
+footer > p {
+  width: 1100px;
+  margin: 15px auto;
+  color: #666d75;
+  line-height: 1.5;
+}/*# sourceMappingURL=style.css.map */
